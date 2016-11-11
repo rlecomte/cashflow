@@ -1,0 +1,7 @@
+
+CREATE TABLE Cashflow (
+    id uuid NOT NULL PRIMARY KEY,
+    label VARCHAR(250) NOT NULL,
+    dateOf TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+    spent NUMERIC(15,6) NOT NULL
+);
